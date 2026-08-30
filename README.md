@@ -1,4 +1,3 @@
- q
 # 📝 To‑Do List WebApp
 
 ## 📖 Overview
@@ -31,3 +30,22 @@ Users can:
 ---
 
 ## 📂 Project Structure
+
+What Was Added / Updated
+Due date support  
+Tasks now include a dueDate property and display it in the UI.
+
+Edit functionality  
+Users can update an existing task’s text and due date using the new editTask() function.
+
+Mark as done  
+A checkbox toggles the completed state and applies a strikethrough style.
+
+Improved render logic  
+The UI now shows task text, completion status, and due date together.
+
+LocalStorage persistence  
+All CRUD operations update localStorage so tasks remain saved.
+
+
+
