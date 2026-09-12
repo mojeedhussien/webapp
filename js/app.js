@@ -1,4 +1,16 @@
-  // Load tasks from localStorage
+/* 
+  To‑Do List WebApp — CRUD + Due Date Update
+
+  This version adds full CRUD functionality:
+  - Create tasks with text and due date
+  - Read/display tasks with visible due dates
+  - Update/edit existing tasks (text + due date)
+  - Delete tasks
+  - Mark tasks as done using a checkbox
+
+  All tasks are stored in localStorage for persistence.
+*/
+// Load tasks from localStorage
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 const taskList = document.getElementById("taskList");
 
